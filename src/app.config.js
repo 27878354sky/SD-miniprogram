@@ -1,11 +1,11 @@
 export default defineAppConfig({
   pages: [
     "pages/index/index",
-    "pages/chat/index",
-    "pages/profile/index",
-    "pages/profile-info/index",
-    "pages/about/index",
-    "pages/contact-community/index",
+    "Chat/chat/index",
+    "PersonalDetails/profile/index",
+    "PersonalDetails/profile-info/index",
+    "PersonalDetails/about/index",
+    "ContactCommunity/Contact/index",
     "pages/PolicyRegulation/index",
     "pages/HealthService/index",
     "pages/ResourceList/index",
@@ -26,11 +26,11 @@ export default defineAppConfig({
         text: "首页",
       },
       {
-        pagePath: "pages/chat/index",
+        pagePath: "Chat/chat/index",
         text: "AI聊天",
       },
       {
-        pagePath: "pages/profile/index",
+        pagePath: "PersonalDetails/profile/index",
         text: "我的",
       },
     ],

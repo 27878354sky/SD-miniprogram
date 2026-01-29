@@ -5,7 +5,7 @@ import "./index.scss";
 export default function ServiceGrid() {
   const services = [
     { title: "政策法规", path: "/pages/PolicyRegulation/index" },
-    { title: "联系社区", path: "/pages/contact-community/index" },
+    { title: "联系社区", path: "/ContactCommunity/Contact/index" },
     { title: "卫生服务", path: "/pages/HealthService/index" },
     { title: "资源清单", path: "/pages/ResourceList/index" },
     { title: "服务地图", path: "/pages/ServiceMap/index" },

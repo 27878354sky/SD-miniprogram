@@ -134,7 +134,9 @@ export default function Profile() {
           isLink
           size="large"
           clickable
-          onClick={() => Taro.navigateTo({ url: "/pages/profile-info/index" })}
+          onClick={() =>
+            Taro.navigateTo({ url: "/PersonalDetails/profile-info/index" })
+          }
         />
         <Cell
           align="center"
@@ -152,7 +154,9 @@ export default function Profile() {
           size="large"
           Share
           clickable
-          onClick={() => Taro.navigateTo({ url: "/pages/about/index" })}
+          onClick={() =>
+            Taro.navigateTo({ url: "/PersonalDetails/about/index" })
+          }
         />
         <Cell
           align="center"
