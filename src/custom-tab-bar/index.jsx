@@ -20,8 +20,8 @@ export default class CustomTabBar extends Component {
 
       const pathMap = {
         "/pages/index/index": 0,
-        "/pages/chat/index": 1,
-        "/pages/profile/index": 2,
+        "/Chat/chat/index": 1,
+        "/PersonalDetails/profile/index": 2,
       };
 
       initialActive =
@@ -60,8 +60,8 @@ export default class CustomTabBar extends Component {
 
     const pathMap = {
       "/pages/index/index": 0,
-      "/pages/chat/index": 1,
-      "/pages/profile/index": 2,
+      "/Chat/chat/index": 1,
+      "/PersonalDetails/profile/index": 2,
     };
 
     const active = pathMap[currentPath];
@@ -83,8 +83,8 @@ export default class CustomTabBar extends Component {
 
     const urls = [
       "/pages/index/index",
-      "/pages/chat/index",
-      "/pages/profile/index",
+      "/Chat/chat/index",
+      "/PersonalDetails/profile/index",
     ];
 
     const url = urls[value];
